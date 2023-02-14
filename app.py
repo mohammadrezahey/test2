@@ -33,7 +33,7 @@ if __name__ == '__main__':
     parser.add_argument('--port', help='Port to bind to.',
                         default=443)
     parser.add_argument('--remote_url', help='Remote websocket url',
-                        default='wss://d2c73by1qw1ztu.cloudfront.net:443')
+                        default='wss://mars.mohammadreza.space:443')
     args = parser.parse_args()
 
     REMOTE_URL = args.remote_url
